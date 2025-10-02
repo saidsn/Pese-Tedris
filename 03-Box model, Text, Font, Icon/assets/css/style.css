@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Dancing";
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+
+/* .division{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    padding: 20px;
+    border:  10px solid black;
+    margin: 50px;
+
+    outline: 5px dashed green;
+    outline-offset: 20px;
+} */
+
+#text{
+  margin: 100px;
+  font-family:"Dancing";
+
+  margin-left: 700px;
+  margin-top: 400px;
+}

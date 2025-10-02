@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #nav_area{
+   padding: 30px;
+   background-color: blueviolet;
+   position: fixed;
+   right: 0;
+   left: 0;
+   top: 0;
+} */
+
+.container{
+    width: 300px;
+    margin: 100px auto;
+    background-color: #ccc;
+    padding: 50px;
+    
+}
+.container .star{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.star::before,
+.star::after{
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: brown;
+    position: absolute;
+    top: 50%;
+}
+.star::before{
+    left: -50px;
+}
+.star::after{
+    right: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.logo a{
+    font-size: 30px;
+}
+.list{
+    display: flex;
+    gap: 20px;
+}
+.list_item{
+    list-style: none;
+}
+.list_item a{
+    font-size: 20px;
+}
+.text{
+    margin-top: 94.5px;
+} */
+
+/* .page .header_1,
+.page .header_2,
+.page .header_3{
+    text-align: center;
+    padding: 20px 0;
+}
+.page .header_1{
+    background-color: rgb(53, 20, 137);
+}
+.page .header_2{
+    background-color: rgb(196, 13, 68);
+}
+.page .header_3{
+    background-color: rgb(19, 175, 125);
+}
+.page h2{
+    position: sticky;
+    top: 0;
+}
+.arrow_up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+} */
+
+/* .check{
+    width: 100px;
+    height: 40px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+}
+label input{
+   display: none;
+}
+
+.check_btn{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(139, 149, 71);
+    border-radius: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/* label input:checked + .check{
+    background-color: rgb(139, 149, 71);
+} */
+
+label input:checked + .check .check_btn{
+    background-color: tomato;
+    left: 65px;
+} */

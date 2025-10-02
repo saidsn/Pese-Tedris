@@ -1,0 +1,21 @@
+.register_area {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register {
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background: linear-gradient(rgb(119, 146, 203), rgb(191, 191, 197));
+}
+.submit {
+  width: 100%;
+}
+
+.register_title {
+  text-align: center;
+}
