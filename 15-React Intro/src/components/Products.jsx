@@ -1,4 +1,3 @@
-import Button from "./Button";
 import Product from "./Product";
 
 let products = [

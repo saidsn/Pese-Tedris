@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import Register from "../pages/auth/register/Register";
 import Login from "../pages/auth/login/Login";
 import NotFoundPage from "../pages/NotFoundPage";
+import Wishlist from "../pages/wishlist/Wishlist";
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/wishlist",
+    element: <Wishlist />,
   },
   {
     path: "*",
