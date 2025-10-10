@@ -23,6 +23,8 @@ let emptyInputValue = () => {
 };
 
 
+
+
 function Sum() {
   checkInputValue();
   result.textContent = Number(inputOne.value) + Number(inputTwo.value);

@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "89ac",
+      "firstName": "Səid",
+      "lastName": "Nuralıyev",
+      "username": "said_89",
+      "email": "seidvahidli@gmail.com",
+      "password": "12345Az!",
+      "confirmPassword": "12345Az!",
+      "isLogined": false
+    },
+    {
+      "id": "da4e",
+      "firstName": "Səid",
+      "lastName": "Nuralıyev",
+      "username": "said_99",
+      "email": "seidvahidlim@gmail.com",
+      "password": "12345Az!",
+      "confirmPassword": "12345Az!",
+      "isLogined": false
+    },
+    {
+      "id": "b8aa",
+      "firstName": "Səid",
+      "lastName": "Nuralıyev",
+      "username": "said_899",
+      "email": "seidvahidlin@gmail.com",
+      "password": "12345Az!",
+      "confirmPassword": "12345Az!",
+      "isLogined": false
+    }
+  ]
+}

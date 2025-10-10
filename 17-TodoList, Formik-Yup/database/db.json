@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "3414",
+      "firstName": "Səid",
+      "lastName": "Nuralıyev",
+      "username": "said_89",
+      "email": "seidvahidli@gmail.com",
+      "password": "12",
+      "confirmPassword": "12",
+      "url": "http://localhost:3000/users"
+    }
+  ]
+}

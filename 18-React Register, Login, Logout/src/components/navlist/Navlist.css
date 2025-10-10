@@ -1,0 +1,8 @@
+.list {
+  display: flex;
+  font-size: 23px;
+  gap: 20px;
+}
+.list_item {
+  list-style: none;
+}
