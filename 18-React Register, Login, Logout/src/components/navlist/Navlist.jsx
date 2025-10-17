@@ -12,6 +12,9 @@ const Navlist = () => {
       <li className="list_item">
         <Link to={"/contact"}>Contact</Link>
       </li>
+      <li className="list_item">
+        <Link to={"/admin"}>Admin</Link>
+      </li>
     </ul>
   );
 };

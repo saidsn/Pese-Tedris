@@ -1,8 +1,8 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-evenly;
+  gap: 58px;
+  justify-content: flex-start;
 }
 
 .head-title {

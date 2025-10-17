@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { GetProducts } from "../../redux/features/productSlice";
 import Product from "../product/Product";
 import "./Products.css";
+import ActionBar from "../action/ActionBar";
 
 const Products = () => {
   const { products } = useSelector((state) => state.products);
@@ -15,6 +16,7 @@ const Products = () => {
   return (
     <section id="products">
       <div className="container">
+        <ActionBar />
         <div className="row">
           <h3 className="head-title" style={{ textAlign: "center" }}>
             Products

@@ -1,8 +1,9 @@
-import React from "react";
 import { Button } from "react-bootstrap";
 import Table from "react-bootstrap/Table";
 import { useDispatch, useSelector } from "react-redux";
 import { AddWishlist } from "../../redux/features/wishlistSlice";
+import { Link } from "react-router-dom";
+import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 
 const Wishlist = () => {
   const { wishlist } = useSelector((state) => state.wishlist);
@@ -47,6 +48,7 @@ const Wishlist = () => {
             ))}
         </tbody>
       </Table>
+      <Link to={"/"}><MdKeyboardDoubleArrowLeft />Back</Link>
     </div>
   );
 };
