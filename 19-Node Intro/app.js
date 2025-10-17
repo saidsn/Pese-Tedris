@@ -13,7 +13,7 @@ app.listen(port, () => {
 const { users } = JSON.parse(fs.readFileSync("database/db.json"));
 const path = "/api/users";
 
-// Routes
+// Routes.
 app.get(`${path}`, GetAll);
 app.get(`${path}/:id`, GetById);
 app.post(`${path}`, Create);
@@ -21,7 +21,7 @@ app.delete(`${path}/:id`, Delete);
 app.put(`${path}/:id`, Put);
 app.patch(`${path}/:id`, Patch);
 
-// Methods
+// Methods.
 app.get("/", (req, res) => {
   res.send("Hello Pese tedris");
 });
